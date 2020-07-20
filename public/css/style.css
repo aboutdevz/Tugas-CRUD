@@ -4,3 +4,15 @@ body{
     min-height: 100%;
 }
 
+.loginbox{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+.loginContent{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+}
