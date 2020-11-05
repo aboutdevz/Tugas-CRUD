@@ -14,7 +14,10 @@ define('BASEURL',$path);
 //define('BASEURL',$_SERVER['HTTP_REFERER'].''.'dugam%20scout/public/');
 //db
 
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','crud');
+
+$handle = file_get_contents('http://localhost/CRUD/config.json');
+$aye = json_decode($handle);
+define('DB_HOST',$aye->host);
+define('DB_USER',$aye->username);
+define('DB_PASS',$aye->password);
+define('DB_NAME',$aye->db);

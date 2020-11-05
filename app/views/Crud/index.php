@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container mt-5">
   <div class="row">
     <div class="col-11">
       <h1>Aplikasi CRUD simpel</h1>
@@ -13,7 +13,7 @@
       ?>
     </div>
   </div>
-  <a href="https://aboutdevz.xyz/Portofolio/" class="text-primary float-right">Fikri Husen Badjeber XII RPL 2</a>
+  <a href="https://www.instagram.com/ciptiadmyt" class="text-primary" style="text-decoration:none;"><b>Ciptia Darmayanti XII RPL 2</b></a>
   <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>

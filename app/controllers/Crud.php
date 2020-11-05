@@ -3,6 +3,7 @@
 class Crud extends controller{
     public function index(){
         if (!isset($_SESSION['login'])){
+            
             header('Location:'.BASEURL.'Home/index');
         }else{
             $data = $this->model('tambah_model')->view();
