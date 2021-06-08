@@ -16,8 +16,8 @@ define('BASEURL',$path);
 
 
 $handle = file_get_contents('http://localhost/CRUD/config.json');
-$aye = json_decode($handle);
-define('DB_HOST',$aye->host);
-define('DB_USER',$aye->username);
-define('DB_PASS',$aye->password);
-define('DB_NAME',$aye->db);
+$dbconfig = json_decode($handle);
+define('DB_HOST',$dbconfig->host);
+define('DB_USER',$dbconfig->username);
+define('DB_PASS',$dbconfig->password);
+define('DB_NAME',$dbconfig->db);

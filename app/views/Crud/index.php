@@ -13,7 +13,7 @@
       ?>
     </div>
   </div>
-  <a href="https://www.instagram.com/ciptiadmyt" class="text-primary" style="text-decoration:none;"><b>Ciptia Darmayanti XII RPL 2</b></a>
+  <a href="https://www.instagram.com/ciptiadmyt" class="text-primary" style="text-decoration:none;"><b>Nurul Habibah XII RPL 2</b></a>
   <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
